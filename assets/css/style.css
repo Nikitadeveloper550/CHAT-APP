@@ -4,18 +4,28 @@
     background-color: rgb(30, 113, 225) !important;
 }
 
-.chatapp {
+.Roboto {
+    font-family: "Roboto", serif;
+}
+
+.poppins {
     font-family: Poppins;
+}
+
+.btn-hover:hover {
+    font-family: cursive;
+    font-size: larger;
+    border-radius: 0px !important;
+}
+
+.chatapp {
     font-size: 26px;
-    font-weight: 600;
     line-height: 30.16px;
-    letter-spacing: -0.02em;
 }
 
 li {
-    padding-left: 12px;
+    padding-left: 25px;
     padding-top: 20px;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 16.41px;
@@ -28,5 +38,81 @@ li {
     border-radius: 30px;
     margin-left: 12px;
     margin-top: 12px;
-    font-family: Roboto;
+    transition: 1s;
+}
+
+.haveyou {
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 96.3px;
+    letter-spacing: -0.02em;
+}
+
+.fast {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.61px;
+}
+
+.btn {
+    padding: 8px 35px !important;
+    border-radius: 30px !important;
+    transition: 1s;
+    margin-left: 20px;
+}
+
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+.lorem-ipsum {
+    max-width: 566px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(107, 114, 120);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+}
+
+.Instant-team {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.78px;
+}
+
+.pt-30 {
+    padding-top: 88px !important;
+}
+
+.mb-80 {
+    margin-bottom: 100px !important;
+}
+
+.mt-40px {
+    margin-top: 100px !important;
+}
+
+.bg-light {
+    background-color: rgb(232, 241, 255);
+}
+
+.perfect-solution {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.78px;
+}
+
+.pricing-plans {
+    color: rgba(43, 53, 62, 0.7);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 33.96px;
+}
+
+img[alt="grey-img"]
+{
+        bottom: 176px;
+        left: 28px;
+    
 }
