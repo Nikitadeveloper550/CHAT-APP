@@ -12,12 +12,6 @@
     font-family: Poppins;
 }
 
-.btn-hover:hover {
-    font-family: cursive;
-    font-size: larger;
-    border-radius: 0px !important;
-}
-
 .chatapp {
     font-size: 26px;
     line-height: 30.16px;
@@ -31,14 +25,22 @@ li {
     line-height: 16.41px;
 }
 
+a:hover {
+    color: goldenrod !important;
+}
+
 .btn-tryit {
     background-color: rgb(75, 141, 255);
     border: 1px solid rgb(75, 141, 255);
-    padding: 10px 24px;
+    padding: 13px 24px !important;
     border-radius: 30px;
-    margin-left: 12px;
     margin-top: 12px;
     transition: 1s;
+}
+
+.btn-tryit:hover {
+    background-color: white;
+    color: goldenrod !important;
 }
 
 .haveyou {
@@ -54,11 +56,36 @@ li {
     line-height: 24.61px;
 }
 
-.btn {
+.btn,
+.btn-demo {
     padding: 8px 35px !important;
     border-radius: 30px !important;
-    transition: 1s;
-    margin-left: 20px;
+    transition: 1s !important;
+}
+
+.btn:hover {
+    border-radius: 7px !important;
+    background-color: white !important;
+    color: goldenrod !important;
+}
+
+.btn-try {
+    padding: 8px 35px !important;
+    border-radius: 30px !important;
+    border: 1px solid rgb(75, 141, 255);
+    transition: 1s !important;
+}
+
+.btn-try:hover {
+    border: 1px solid rgb(75, 141, 255);
+    background-color: white !important;
+    border-radius: 7px !important;
+    color: goldenrod !important;
+}
+
+.btn-demo:hover {
+    border-radius: 7px !important;
+    color: goldenrod !important;
 }
 
 .mt-100 {
@@ -94,7 +121,7 @@ li {
 }
 
 .bg-light {
-    background-color: rgb(232, 241, 255);
+    background-color: rgb(232, 249, 255);
 }
 
 .perfect-solution {
@@ -108,11 +135,87 @@ li {
     font-size: 21px;
     font-weight: 400;
     line-height: 33.96px;
+    margin-bottom: 0px !important;
 }
 
-img[alt="grey-img"]
-{
-        bottom: 176px;
-        left: 28px;
-    
+img[alt="grey-img"] {
+    top: 366px;
+    left: 13px;
+}
+
+.last-text {
+    color: rgb(100, 109, 120);
+    max-width: 274px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    top: 86px;
+    left: 180px;
+}
+
+img[alt="star"] {
+    top: 90px;
+    left: 3%;
+}
+
+li {
+    padding-bottom: 5px !important;
+    list-style: none !important;
+}
+
+a,
+.copyright {
+    text-decoration: none !important;
+    color: rgb(131, 139, 149) !important;
+}
+
+.last-team {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.25px;
+    color: rgb(131, 139, 149) !important;
+    padding-top: 11px;
+}
+
+.mb {
+    margin-bottom: 158px;
+}
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.chat-app {
+    font-size: 26px;
+    line-height: 30.16px;
+    letter-spacing: -0.02em;
+    padding-top: 22px;
+}
+
+.li-span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+}
+
+@media (min-width:992px) {
+    img[alt="overflow"] {
+        display: none !important;
+    }
+
+    .section-3::after {
+        content: "";
+        position: absolute;
+        width: 50%;
+        left: 0px;
+        height: 70%;
+        background-image: url(../image/section-3-img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
 }
