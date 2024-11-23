@@ -14,7 +14,7 @@
 }
 
 .chatapp {
-    font-size: 26px;
+    font-size: 26px !important;
     line-height: 30.16px;
 }
 
@@ -37,15 +37,14 @@ button[aria-expanded="false"] span.cross {
     background-size: 100%;
 }
 
-img[ alt="cross"]
-{
+img[ alt="cross"] {
     mix-blend-mode: multiply !important;
 }
 
 li {
     padding-left: 25px;
     padding-top: 20px;
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: 500;
     line-height: 16.41px;
 }
@@ -211,10 +210,6 @@ a,
     margin-top: 94px;
 }
 
-.mb-50 {
-    margin-bottom: 50px;
-}
-
 .chat-app {
     font-size: 26px;
     line-height: 30.16px;
@@ -263,11 +258,11 @@ a,
 }
 
 @media (max-width:574.98px) {
-        .ms-5{
-       margin-left: 0px !important;
+    .ms-5 {
+        margin-left: 0px !important;
     }
 
-        .btn{
-            padding: 10px 20px !important;
-        }
+    .btn {
+        padding: 10px 20px !important;
+    }
 }
