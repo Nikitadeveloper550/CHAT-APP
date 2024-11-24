@@ -18,6 +18,10 @@
     line-height: 30.16px;
 }
 
+ul {
+    align-items: center;
+}
+
 button[aria-expanded="false"] span.lines {
     display: block !important;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -41,12 +45,13 @@ img[ alt="cross"] {
     mix-blend-mode: multiply !important;
 }
 
-li {
+.nav-item {
     padding-left: 25px;
-    padding-top: 20px;
     font-size: 14px !important;
     font-weight: 500;
     line-height: 16.41px;
+    display: flex;
+    align-items: center;
 }
 
 a:hover {
@@ -248,6 +253,12 @@ a,
         background-repeat: no-repeat;
         background-size: cover;
 
+    }
+}
+
+@media (max-width:992px) {
+    .nav-item {
+        padding-left: 0%;
     }
 }
 
